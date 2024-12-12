@@ -1,0 +1,14 @@
+E:\Steam\steamapps\common\sbox\.vs\output\hammerentity.xml
+E:\Steam\steamapps\common\sbox\.vs\output\hammerentity.deps.json
+E:\Steam\steamapps\common\sbox\.vs\output\hammerentity.dll
+E:\Steam\steamapps\common\sbox\.vs\output\hammerentity.pdb
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammerentity.csproj.AssemblyReference.cache
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammerentity.GeneratedMSBuildEditorConfig.editorconfig
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammerentity.AssemblyInfoInputs.cache
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammerentity.AssemblyInfo.cs
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammerentity.csproj.CoreCompileInputs.cache
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammeren.CF20FEB2.Up2Date
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammerentity.dll
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\refint\hammerentity.dll
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammerentity.pdb
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\ref\hammerentity.dll
