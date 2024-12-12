@@ -8,7 +8,7 @@ public sealed class LogicTimer : Component
 	[Property,Group("flag")]public bool StartOn { get; set; } = false; // 是否一开始就启动定时器
 	private bool _isRunning; // 定时器是否正在运行
 	private TimeSince _timeSince; // 已经过的时间
-
+	
 	protected override void OnStart()
 	{
 		if ( StartOn )
