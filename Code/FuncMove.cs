@@ -62,7 +62,6 @@ public class FuncMove : Component
 	private void MoveReciprocate()
 	{
 		Value = (MathF.Sin(time * MoveSpeed / 100 * MathF.PI) + 1f) / 2f;
-		Log.Info( Value );
 		WorldPosition = Vector3.Lerp( StartPosition, Target.WorldPosition, Value);
 		
 	}

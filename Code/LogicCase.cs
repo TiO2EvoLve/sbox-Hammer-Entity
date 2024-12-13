@@ -10,20 +10,15 @@ public class LogicCase : Component
 	public void InValue( int value )
 	{
 		if ( OnCase.Count == 0 ) return;
-		bool matched = false;
 		foreach ( var item in OnCase )
 		{
 			if ( value == item.Key )
 			{
 				item.Value?.Invoke();
-				matched = true;
-				break; //一旦匹配到，跳出循环
+				return;
 			}
 		}
-		if ( !matched )
-		{
-			OnDefault?.Invoke();
-		}
+		OnDefault?.Invoke();
 	}
 	// 随机选择一个Case执行
 	public void PickRandom()
