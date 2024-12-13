@@ -12,3 +12,4 @@ E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug
 E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\refint\hammerentity.dll
 E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammerentity.pdb
 E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\ref\hammerentity.dll
+E:\Steam\steamapps\common\sbox\addons\test\Libraries\HammerEntity\Code\obj\Debug\hammerentity.sourcelink.json

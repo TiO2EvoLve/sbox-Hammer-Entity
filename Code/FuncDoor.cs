@@ -15,7 +15,6 @@ public class FuncDoor:BaseToggle, Component.IPressable
 	[Property, Group( "Closing" )] public Curve CloseMovementCurve { get; set; } = new Curve( new Curve.Frame( 0, 0 ), new Curve.Frame( 1, 1 ) );
 	[Property] public bool AutoReset { get; set; } = true;
 	[Property, ShowIf( "AutoReset", true )] public float ResetTime { get; set; } = 1.0f;
-
 	[Property, Group( "Movement" )] public Vector3 Pivot { get; set; }
 	[Property, Group( "Movement" )] public Angles TargetRotation { get; set; } = new Angles( 0, 90, 0 );
 

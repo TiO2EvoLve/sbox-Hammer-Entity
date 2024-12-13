@@ -9,7 +9,7 @@ public class TriggerMultiple : Component,Component.ITriggerListener
 	[Property] public Action OnEndTouchAll { get; set; }
 
 	//当前服务器人数
-	int CheckPlayerNumber => Connection.All.Count;
+	[Property,ReadOnly,Title("PlayerCount")]int CheckPlayerNumber => Connection.All.Count;
 	
 	private HashSet<GameObject> PlayerCount = new ();
 	

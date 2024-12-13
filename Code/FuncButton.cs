@@ -149,6 +149,7 @@ public class FuncButton : BaseToggle,Component.IPressable
 		if ( IsProxy )
 			return;
 	}
+	
 
 	bool IPressable.Press( IPressable.Event e )
 	{

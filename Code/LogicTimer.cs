@@ -1,9 +1,9 @@
 [Icon("timer"),Group( "Hammer" ), Title( "logic_timer" )]
 public sealed class LogicTimer : Component
 {
-	[Property] public Action OnTimer { get; set; } // 定时器触发时调用的动作
-	[Property] public Action OnTimerStart { get; set; } // 定时器开始时的动作
-	[Property] public Action OnTimerStop { get; set; } // 定时器停止时的动作
+	[Property,Group("Output")] public Action OnTimer { get; set; } // 定时器触发时调用的动作
+	[Property,Group("Output")] public Action OnTimerStart { get; set; } // 定时器开始时的动作
+	[Property,Group("Output")] public Action OnTimerStop { get; set; } // 定时器停止时的动作
 	[Property] public float WaitTime { get; set; } = 5f; // 默认定时器等待时间（秒）
 	[Property,Group("flag")]public bool StartOn { get; set; } = false; // 是否一开始就启动定时器
 	private bool _isRunning; // 定时器是否正在运行
